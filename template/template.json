@@ -1,0 +1,8 @@
+{
+  "id": "int",
+  "name": "str",
+  "platform": "str",
+  "successRate": "str",
+  "totalRuns": "int",
+  "totalDuration": "int"
+}

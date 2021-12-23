@@ -1,0 +1,30 @@
+{
+  "predicates": [
+    {
+      "and": [
+        {
+          "equals": {
+            "method": "POST",
+            "path": "/stability",
+            "headers": {
+              "Authorization": "Basic authenticationKeyForMockServer"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "content-type": "application/json;charset=UTF-8"
+        },
+        "body": {
+          "status": "Success"
+        }
+      }
+    }
+  ]
+}

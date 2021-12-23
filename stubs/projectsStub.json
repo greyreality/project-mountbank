@@ -1,0 +1,34 @@
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/projects"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "body": [
+          {
+            "id": 1,
+            "name": "Powerbuy"
+          },
+          {
+            "id": 2,
+            "name": "TOPS"
+          },
+          {
+            "id": 3,
+            "name": "SuperSports"
+          }
+        ]
+      }
+    }
+  ]
+}

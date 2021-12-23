@@ -1,18 +1,26 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# OS metadata
+.DS_Store
 
-# Other files and folders
-.settings/
+# Idea
+.idea
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+#Generated files
+1.json
+2.json
+3.json
+projectsStub_for_update.json
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Robot results and reports
+results
+results*
+mb.pid
+mb.log
+mb1.log
+__pycache__
+.pabotsuitenames
+*.log
+*.log.*
+selenium.log.lck
+log.html
+report.html
+output.xml
