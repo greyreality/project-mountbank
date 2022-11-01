@@ -170,7 +170,7 @@ Execute script on python2 to update mock data
 ./script.py
 ```
 ### Celebrate
-![](https://github.com/project-mountbank/files/celebration.gif)
+![](https://github.com/greyreality/project-mountbank/blob/main/files/celebration.gif)
 ### Additional
 Question: How to setup a schedule run every day for the script in #2?
 Answer: Task Scheduler, Cron in CICD pipeline
